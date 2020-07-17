@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1100px) {
+  #portfolio .blk2 {
+    float: none;
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .text-vertical-center img {
+    width: 30%;
+  }
+
+  #services > div > div > div > div.text-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4em;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .text-vertical-center h3,
+  section#about .col-lg-12,
+  aside.call-to-action.bg-primary > div > div > div > h3,
+  .callout,
+  .callout h1,
+  footer {
+    width: 100%;
+  }
+
+  footer {
+    padding: 70px 0;
+  }
+}
+@media only screen and (max-width: 754px) {
+  .text-vertical-center h3,
+  body > aside.callout > div > h1,
+  body > aside.call-to-action.bg-primary > div > div > div > h3 {
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  body > aside.callout > div > h1 {
+    font-size: 3.5em;
+  }
+  #services > div > div > div > div.text-center {
+    grid-template-columns: 1fr;
+  }
+}
